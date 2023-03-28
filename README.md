@@ -22,6 +22,7 @@ Sample output:
 [['11:30','12:00'], ['15:00','16:00'], ['18:00':'18:30']]
 
 **Solution**:
+- we assume that the time ranges are correct and are of the form "h:mm" or "hh:mm"
 - the program converts the two given calendars and their ranges into time strings of the form "hh:mm"
 - transforms the time strings into minutes
 - forms a list for each calendar with its available time slots
